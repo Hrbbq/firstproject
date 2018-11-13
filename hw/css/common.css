@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+body,p,ul,li,ol,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow-x:hidden;
+	min-width:1200px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+li{
+	list-style:none;
+}
+a{
+	color:#B6B6B6;
+	text-decoration:none;
+}
+a:hover{
+	color:#CA151D;
+}
+img{vertical-align:bottom;}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.w-m{
+	width:1200px;
+	margin:auto;
+}
